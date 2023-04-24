@@ -41,6 +41,6 @@ public void f() {
 		driver.findElement(By.xpath("//*[@id=\"hotelNavBar\"]/div/ul/li[2]/button/span")).click();
 		driver.findElement(By.xpath("//*[@id=\"ChildRoom-Ch8I2vnABhACIA4ojuUhMARAAUoJN0QxTl8xMDBQUJgFEgIIARoGEAIoBDAB\"]/div/div[4]/div[2]/div/div[1]/button/div")).click();
 		WebElement txtBoxl=driver.findElement(By.xpath("//*[@id=\"Fullname\"]"));
-		txtBoxl.sendKeys("Pradeep");
+		txtBoxl.sendKeys("Krishna");
 }
 }
